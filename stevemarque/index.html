@@ -232,6 +232,23 @@ input[type="range"]::-webkit-slider-thumb:hover{box-shadow:0 0 0 8px var(--gold-
   .pricing-options{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){.reveal,.reveal-left{opacity:1;transform:none;transition:none}*{animation:none!important;transition:none!important}}
+
+/* Bonus property promotion table */
+.bonus-section{background:rgba(0,0,0,.2);border:1px solid var(--border);border-radius:16px;padding:2rem;margin:2rem 0;position:relative;z-index:1}
+.bonus-title{font-size:1.2rem;font-weight:700;color:var(--text-bright);margin-bottom:.3rem}
+.bonus-subtitle{font-size:.78rem;color:var(--text-dim);margin-bottom:1.5rem;line-height:1.6}
+.bonus-table{border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.bonus-row{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--border);transition:background .3s ease}
+.bonus-row:last-child{border-bottom:none}
+.bonus-row:hover{background:rgba(255,255,255,.03)}
+.bonus-header{background:rgba(255,255,255,.04)}
+.bonus-header .bonus-cell{font-family:'Space Mono',monospace;font-size:.6rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-dim);padding:.8rem 1.2rem}
+.bonus-cell{padding:.8rem 1.2rem;font-size:.85rem;color:var(--text);display:flex;align-items:center}
+.bonus-highlight{color:var(--gold);font-weight:700;font-size:.95rem}
+.bonus-free .bonus-cell:first-child{color:var(--text-bright)}
+.bonus-each{font-size:.65rem;color:var(--text-dim);margin-left:.4rem;font-weight:400}
+.bonus-note{font-family:'Space Mono',monospace;font-size:.6rem;color:var(--text-dim);margin-top:1rem;letter-spacing:.5px;text-align:center}
+
 </style>
 </head>
 <body>
@@ -321,7 +338,7 @@ input[type="range"]::-webkit-slider-thumb:hover{box-shadow:0 0 0 8px var(--gold-
           <div class="test-metric"><div class="metric-num" data-prefix="€" data-count="150000" data-format="currency">0</div><div class="metric-label">Revenue generated</div></div>
         </div>
         <div class="test-quote">"The problem is created. We need to find solutions. And we want to grow more and double the campaigns."</div>
-        <div class="test-links"><a href="tel:+351933086755" class="test-link">📞 +351 933 086 755</a><a href="https://www.youtube.com/watch?v=3qxhlg7olQw" target="_blank" class="test-link">▶ Watch interview</a></div>
+        <div class="test-links"><a href="tel:+351933086755" class="test-link">📞 +351 933 086 755</a><a href="https://www.youtube.com/watch?v=3qxhlg7olQw" target="_blank" class="test-link">▶ Watch interview</a><a href="https://www.facebook.com/ads/library/?active_status=all&ad_type=housing_ads&country=PT&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=338339609354355" target="_blank" class="test-link">📣 View live ads</a></div>
       </div>
     </div>
     <div class="testimonial reveal stagger-2">
@@ -335,7 +352,7 @@ input[type="range"]::-webkit-slider-thumb:hover{box-shadow:0 0 0 8px var(--gold-
           <div class="test-metric"><div class="metric-num" data-prefix="€" data-count="72000" data-format="currency">0</div><div class="metric-label">Revenue generated</div></div>
         </div>
         <div class="test-quote">"If it works for others, it will work for me. It was a leap of faith, and it paid off."</div>
-        <div class="test-links"><a href="tel:+351962090638" class="test-link">📞 +351 962 090 638</a><a href="https://www.youtube.com/watch?v=3SiHR8-GMl0" target="_blank" class="test-link">▶ Watch interview</a></div>
+        <div class="test-links"><a href="tel:+351962090638" class="test-link">📞 +351 962 090 638</a><a href="https://www.youtube.com/watch?v=3SiHR8-GMl0" target="_blank" class="test-link">▶ Watch interview</a><a href="https://www.facebook.com/ads/library/?active_status=all&ad_type=housing_ads&country=PT&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=1390496724535733" target="_blank" class="test-link">📣 View live ads</a></div>
       </div>
     </div>
     <div class="testimonial reveal stagger-3">
@@ -349,7 +366,7 @@ input[type="range"]::-webkit-slider-thumb:hover{box-shadow:0 0 0 8px var(--gold-
           <div class="test-metric"><div class="metric-num" data-prefix="€" data-count="41000" data-format="currency">0</div><div class="metric-label">Revenue generated</div></div>
         </div>
         <div class="test-quote">"I needed a service compatible with my brand and my way of working. I found it."</div>
-        <div class="test-links"><a href="tel:+351925379919" class="test-link">📞 +351 925 379 919</a><a href="https://www.youtube.com/watch?v=G0TenQcgs2M" target="_blank" class="test-link">▶ Watch interview</a></div>
+        <div class="test-links"><a href="tel:+351925379919" class="test-link">📞 +351 925 379 919</a><a href="https://www.youtube.com/watch?v=G0TenQcgs2M" target="_blank" class="test-link">▶ Watch interview</a><a href="https://www.facebook.com/ads/library/?active_status=all&ad_type=housing_ads&country=PT&is_targeted_country=false&media_type=all&search_type=page&sort_data[mode]=total_impressions&sort_data[direction]=desc&view_all_page_id=686482727886433" target="_blank" class="test-link">📣 View live ads</a></div>
       </div>
     </div>
   </div>
@@ -378,6 +395,19 @@ input[type="range"]::-webkit-slider-thumb:hover{box-shadow:0 0 0 8px var(--gold-
       </div>
     </div>
     <div class="inv-note reveal"><b>All values + VAT.</b> The €500/month ad budget is paid directly to Meta, not to Fluxe. It is what fuels the campaigns.</div>
+
+    
+    <div class="bonus-section reveal">
+      <div class="bonus-title">Property Promotion Campaigns</div>
+      <div class="bonus-subtitle">As you acquire listings, we produce professional video campaigns to promote each property. Vertical and square formats, drone footage, scripting, editing, campaign management, and CRM integration included.</div>
+      <div class="bonus-table">
+        <div class="bonus-row bonus-header"><div class="bonus-cell">Listing</div><div class="bonus-cell">Cost</div></div>
+        <div class="bonus-row bonus-free"><div class="bonus-cell">1st listing of the month</div><div class="bonus-cell bonus-highlight">Free</div></div>
+        <div class="bonus-row"><div class="bonus-cell">2nd and 3rd listings</div><div class="bonus-cell">€50 <span class="bonus-each">each</span></div></div>
+        <div class="bonus-row"><div class="bonus-cell">4th listing onwards</div><div class="bonus-cell">€75 <span class="bonus-each">each</span></div></div>
+      </div>
+      <div class="bonus-note">Resets every month. Minimum ad budget per campaign: €100 (paid to Meta).</div>
+    </div>
 
     <div class="calculator reveal">
       <div class="calc-title">What could this represent in revenue?</div>
